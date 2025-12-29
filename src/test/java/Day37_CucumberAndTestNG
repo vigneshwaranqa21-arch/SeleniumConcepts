@@ -1,0 +1,59 @@
+
+Cucumber Assignment
+
+
+1. Difference between Cucumber and TestNG?
+
+
+
+Cucumber - 1. Supports BDD Approach and it's helpful for Non-Technical StakeHolders.
+
+		   2. Tests Steps were written in StepDefinitions under @Given, @when , @Then.
+		   
+		   3. By default it doesn't supports reports.
+		   
+
+TestNG -   1. TestNG is a TDD approach and have More Control on Test execution and it's helpful for automation testers.
+
+           2. Tests were written and Executed under @Test Annotation.
+           
+           3. TestNG have inbuilt Reports , Assertions , Annotations , Priority.
+           
+           
+
+
+2.Explain the use of When,Given,Then keywords
+
+
+		1. Given When Then were the annotations used in the Cucumber Framework.
+		
+		2. Given - PreCondition of the Test
+		
+		   When - contains Action performed in the Test 
+		   
+		   Then - Assertion / Expected Result Validation.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test thread-count="5" name="RegressionRun(failed)">
+    <groups>
+      <run>
+        <include name="Regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="Day34_Day35_testng.TestNg_02">
+        <methods>
+          <include name="loginTest" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- Day34_Day35_testng.TestNg_02 -->
+    </classes>
+  </test> <!-- RegressionRun(failed) -->
+</suite> <!-- Failed suite [Suite] -->

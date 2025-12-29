@@ -1,0 +1,6 @@
+<suite name="Suite">
+ <test name="RegressionRun">
+  <groups><run><include name="Regression"/></run></groups>
+  <classes><class name="Day34_Day35_testng.TestNg_02"/></classes>
+ </test>
+</suite>
