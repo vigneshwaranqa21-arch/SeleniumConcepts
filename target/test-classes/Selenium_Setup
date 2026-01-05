@@ -1,0 +1,27 @@
+1. Explain the working principle of Selenium
+Selenium uses WebDriver to automate browser actions.
+WebDriver communicates with browser-specific drivers.
+Commands are sent via JSON over HTTP.
+Browser driver executes actions on the browser.
+Results are returned back to the test script.
+
+2. What is the use of Maven? (with example)
+Maven is a build and dependency management tool.
+It downloads required libraries automatically.
+Manages project build lifecycle.
+Example: Adding Selenium dependency in pom.xml.
+Used to run tests using Maven commands.
+
+3. Difference between Java Project and Maven Project
+Java Project requires manual jar management.
+Maven Project manages dependencies automatically.
+Java Project has no standard structure.
+Maven Project follows standard directory structure.
+Build process is manual vs automated.
+
+4. Use of pom.xml in Maven
+pom.xml is the core configuration file of Maven.
+Defines project details and dependencies.
+Manages plugins and build lifecycle.
+Controls versions of libraries.
+Acts as a project blueprint.
