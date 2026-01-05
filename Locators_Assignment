@@ -1,0 +1,20 @@
+1. What are locators? Explain the importance of locators.
+Locators are used to identify web elements on a webpage.
+They help Selenium interact with UI elements.
+Examples include id, name, class, xpath, cssSelector.
+Accurate locators make automation stable and reliable.
+Poor locators cause flaky and failing tests.
+
+2. Explain types of XPath with examples.
+Absolute XPath starts from root node (/html/body/…).
+Relative XPath starts from any node (//input[@id='user']).
+XPath using attribute: //div[@id='div'].
+XPath using contains(): //div[contains(@class,'textbox')].
+XPath using index: (//div[@class='textbox div'])[1].
+
+3. Create XPath and CSS Selector for given elements.
+XPath for first div: (//div[@placeholder='user'])[1].
+XPath for second div: (//div[@placeholder='name'])[1].
+CSS for first div: div[placeholder='user'].
+CSS for second div: div[placeholder='name'].
+Attributes help uniquely identify similar elements.
